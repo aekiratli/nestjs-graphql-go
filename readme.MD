@@ -1,10 +1,9 @@
-# Nest.js GraphQL and Go Data Fetcher
-
+## Nest.js, GraphQL, Go
 User can do CRUD operations to cat class via graphQL served on nest.js. Data gets saved to sqlite3 database. Go service can retrieve data created by user via HTTP GET method to nest.js.
 
 ![schema](schema.png "Schema")
 
-# Local Development
+## Local Dev
 ```bash
 cd go-data-fetcher-service
 go run app.go
